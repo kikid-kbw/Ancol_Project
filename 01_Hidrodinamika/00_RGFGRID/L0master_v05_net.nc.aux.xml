@@ -1,0 +1,14 @@
+<PAMDataset>
+  <Subdataset name="mesh2d_edge_faces">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">10885</MDI>
+          <MDI key="STATISTICS_MEAN">5383.1596401963</MDI>
+          <MDI key="STATISTICS_STDDEV">3176.0323986173</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
