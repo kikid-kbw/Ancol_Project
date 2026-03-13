@@ -1,0 +1,6 @@
+L2
+Hsig: avs, dist 200
+meandir: vector, manual 80 unit, dist 120
+
+wave_L2_Hsig_E_100_skenario-1
+wave_L2_Hsig_meandir_E_100_skenario-1
