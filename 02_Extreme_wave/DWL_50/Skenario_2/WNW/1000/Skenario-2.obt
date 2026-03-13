@@ -1,0 +1,13 @@
+[ObstacleFileInformation]
+   FileVersion  = 02.00                        
+   PolylineFile = Skenario-2.pol               
+[Obstacle]
+   Name         = Feature_0                    
+   Type         = sheet                        
+   TransmCoef   =  0.0000000e+000              
+   Reflections  = no                           
+[Obstacle]
+   Name         = Feature_1                    
+   Type         = sheet                        
+   TransmCoef   =  0.0000000e+000              
+   Reflections  = no                           

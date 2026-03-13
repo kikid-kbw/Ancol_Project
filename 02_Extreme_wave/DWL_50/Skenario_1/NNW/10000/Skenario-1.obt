@@ -1,0 +1,8 @@
+[ObstacleFileInformation]
+   FileVersion  = 02.00                        
+   PolylineFile = Skenario-1.pol               
+[Obstacle]
+   Name         = F001                         
+   Type         = sheet                        
+   TransmCoef   =  0.0000000e+000              
+   Reflections  = no                           

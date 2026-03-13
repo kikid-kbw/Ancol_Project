@@ -1,0 +1,37 @@
+# =========================
+# Delft3D output files
+# =========================
+*.dat
+*.def
+*.his
+*.map
+*.log
+*.sp1
+*.tab
+*.sp2
+
+# =========================
+# Large data files
+# =========================
+*.nc
+*.grib
+*.grb
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+*.out
+
+# =========================
+# Windows system files
+# =========================
+Thumbs.db
+desktop.ini
+
+# =========================
+# Python cache (kalau nanti pakai script)
+# =========================
+__pycache__/
+*.pyc

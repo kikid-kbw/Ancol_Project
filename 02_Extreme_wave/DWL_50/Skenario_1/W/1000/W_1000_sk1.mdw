@@ -1,0 +1,108 @@
+[WaveFileInformation]
+   FileVersion          = 02.00                        
+[General]
+   OnlyInputVerify      = false                        
+   SimMode              = stationary                   
+   DirConvention        = nautical                     
+   ReferenceDate        = 2026-02-13                   
+   ObstacleFile         = Skenario-1.obt               
+   WindSpeed            =  1.5580000e+001              
+   WindDir              =  2.7000000e+002              
+[TimePoint]
+   Time                 =  0.0000000e+000              
+   WaterLevel           =  1.8400000e+000              
+   XVeloc               =  0.0000000e+000              
+   YVeloc               =  0.0000000e+000              
+[Constants]
+   WaterLevelCorrection =  0.0000000e+000              
+   Gravity              =  9.8100004e+000              
+   WaterDensity         =  1.0250000e+003              
+   NorthDir             =  9.0000000e+001              
+   MinimumDepth         =  9.9999998e-003              
+[Processes]
+   GenModePhys          = 3                            
+   Breaking             = true                         
+   BreakAlpha           =  1.0000000e+000              
+   BreakGamma           =  7.3000002e-001              
+   Triads               = false                        
+   TriadsAlpha          =  1.0000000e-001              
+   TriadsBeta           =  2.2000000e+000              
+   WaveSetup            = false                        
+   BedFriction          = jonswap                      
+   BedFricCoef          =  3.7999999e-002              
+   Diffraction          = false                        
+   DiffracCoef          =  2.0000000e-001              
+   DiffracSteps         = 5                            
+   DiffracProp          = true                         
+   WindGrowth           = true                         
+   WhiteCapping         = Komen                        
+   Quadruplets          = true                         
+   Refraction           = true                         
+   FreqShift            = true                         
+   WaveForces           = radiation stresses           
+[Numerics]
+   DirSpaceCDD          =  5.0000000e-001              
+   FreqSpaceCSS         =  5.0000000e-001              
+   RChHsTm01            =  2.0000000e-002              
+   RChMeanHs            =  2.0000000e-002              
+   RChMeanTm01          =  2.0000000e-002              
+   PercWet              =  9.8000000e+001              
+   MaxIter              = 15                           
+[Output]
+   TestOutputLevel      = 0                            
+   TraceCalls           = false                        
+   UseHotFile           = false                        
+   WriteCOM             = false                        
+   LocationFile         = skenario-1.loc               
+   WriteTable           = true                         
+   WriteSpec1D          = true                         
+   WriteSpec2D          = true                         
+[Domain]
+   Grid                 = L0.grd                       
+   BedLevel             = L0.dep                       
+   DirSpace             = circle                       
+   NDir                 = 36                           
+   StartDir             =  0.0000000e+000              
+   EndDir               =  0.0000000e+000              
+   FreqMin              =  2.5000000e-002              
+   FreqMax              =  1.0000000e+000              
+   NFreq                = 180                          
+   Output               = true                         
+[Domain]
+   Grid                 = L1.grd                       
+   BedLevel             = L1_rv01.dep                  
+   DirSpace             = circle                       
+   NDir                 = 36                           
+   StartDir             =  0.0000000e+000              
+   EndDir               =  0.0000000e+000              
+   FreqMin              =  2.5000000e-002              
+   FreqMax              =  1.0000000e+000              
+   NFreq                = 180                          
+   NestedInDomain       = 1                            
+   Output               = true                         
+[Domain]
+   Grid                 = L2.grd                       
+   BedLevel             = L2_rv01.dep                  
+   DirSpace             = circle                       
+   NDir                 = 36                           
+   StartDir             =  0.0000000e+000              
+   EndDir               =  0.0000000e+000              
+   FreqMin              =  2.5000000e-002              
+   FreqMax              =  1.0000000e+000              
+   NFreq                = 180                          
+   NestedInDomain       = 2                            
+   Output               = true                         
+[Boundary]
+   Name                 = Barat                        
+   Definition           = orientation                  
+   Orientation          = west                         
+   SpectrumSpec         = parametric                   
+   SpShapeType          = jonswap                      
+   PeriodType           = peak                         
+   DirSpreadType        = degrees                      
+   PeakEnhanceFac       =  3.3000000e+000              
+   GaussSpread          =  9.9999998e-003              
+   WaveHeight           =  2.3499999e+000              
+   Period               =  6.3400002e+000              
+   Direction            =  2.7000000e+002              
+   DirSpreading         =  2.0000000e+001              
